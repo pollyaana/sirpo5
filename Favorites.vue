@@ -1,4 +1,4 @@
-<template lang="pug"        >
+<template lang="pug">
 .content-wrapper4
        <p>Favorites</p>
        <div class="block"></div>
@@ -6,9 +6,7 @@
        <div class="block"></div>
 </template>
 <script>
-export default
-
-{
+export default {
   data() {
     return {};
   },
@@ -113,8 +111,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-p 
-{
+p {
   text-align: center;
   font-family: Ink Free;
   font-size: 80px;
