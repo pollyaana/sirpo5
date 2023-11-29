@@ -111,7 +111,8 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-p {
+p
+ {
   text-align: center;
   font-family: Ink Free;
   font-size: 80px;
