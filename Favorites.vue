@@ -1,50 +1,126 @@
-<template lang=                   "pug">
+<template lang="pug">
 .content-wrapper4
          <p>Favorites</p>
          <div class="block"></div>
          <div class="block"></div>
          <div class="block"></div>
 </template>
-  <script>
-  
-  export default
-  {
-    data
-     () {
-          return {}
-    }
-  }
-  </script>
-  <style scoped>
-  .block{
-    width: 95%;
-    margin-left: 50px;
-    margin-top: 20px;
-    height: 130px;
-    background-color: #D9D9D9;
-    opacity: 0.7;
-    border-radius: 25px;
-    border:3px solid;
-  }
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
-  small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
-  article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font-size: 100%;
-      font: inherit;
-      vertical-align: baseline;
-  }
-  p{
-    text-align: center;
-    font-family: Ink Free;
-    font-size: 80px;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 3px rgb(12, 65, 100)
-  }
-    .content-wrapper4{background-image: url('favorites.jpg');
-    height: 600px;
-    margin: 0;}
-  </style>
-  
+<script>
+export default {
+  data() {
+    return {};
+  },
+};
+</script>
+<style scoped>
+.block {
+  width: 95%;
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 130px;
+  background-color: #d9d9d9;
+  opacity: 0.7;
+  border-radius: 25px;
+  border: 3px solid;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+p {
+  text-align: center;
+  font-family: Ink Free;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px rgb(12, 65, 100);
+}
+.content-wrapper4 {
+  background-image: url("favorites.jpg");
+  height: 600px;
+  margin: 0;
+}
+</style>
