@@ -1,15 +1,16 @@
-<template lang=     "pug">
+<template lang="pug">
 .content-wrapper4
          <p>Favorites</p>
          <div class="block"></div>
          <div class="block"></div>
          <div class="block"></div>
+         <div class="block"></div>
 </template>
 <script>
-export default
- {
+export default 
+{
   data() {
-    return {};
+            return {}
   },
 };
 </script>
